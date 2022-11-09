@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Newtonsoft.Json.Linq;
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.Events;
@@ -15,6 +15,7 @@ using System.Linq;
 using System.Threading;
 using System.Web.Script.Serialization;
 using SeleniumExtras.WaitHelpers;
+using Newtonsoft.Json.Linq;
 
 namespace Microsoft.PowerApps.TestAutomation.Browser
 {
