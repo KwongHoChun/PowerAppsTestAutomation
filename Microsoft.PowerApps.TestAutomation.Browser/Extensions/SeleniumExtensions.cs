@@ -200,7 +200,7 @@ namespace Microsoft.PowerApps.TestAutomation.Browser
             return jsonObj;
         }
 
-        private static string SanitizeReturnStatement(string script)
+        public static string SanitizeReturnStatement(string script)
         {
             if (script.EndsWith(";"))
             {
